@@ -33,7 +33,7 @@
 @forelse ($CarDetail as $key=>$data)
         <div class="product-listing-m gray-bg">
           <div class="product-listing-img">
-              <img  src="uploads/{{$data->carpic}} " class="img-responsive" style="width: 172px" alt="Image" />
+              <img  src="uploads/{{$data->carpic}} " class="img-responsive" style="width: 325px;height: 257px" alt="Image" />
           </div>
           <div class="product-listing-content">
             <h5><a href="  cardetail/{{$data->id}} ">{{$data->carname}} </a></h5>
